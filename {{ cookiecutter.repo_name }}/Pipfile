@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[requires]
+python_versio = ">=3"
+
+[dev-packages]
+coverage = "*"
+flake8 = "*"
+Sphinx = "*"
+# ipython = "*"
+# ipykernel = "*"
+# notebook = "*"
+# jupyterlab = "*"
+
+[packages]
+src = {editable = true, path = "."}
+click = "*"
+python-dotenv = "*"
+# numpy = "*"
+# pandas = "*"
+# tables = "*"
+# matplotlib = "*"
+# tqdm = "*"
