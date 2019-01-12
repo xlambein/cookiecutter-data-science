@@ -22,6 +22,7 @@ endif
 ## Install Python Dependencies
 requirements:
 	pipenv install --dev
+	pipenv run python -m ipykernel install --user --name=$(basename $(pipenv --venv))
 
 ## Make Dataset
 data: requirements
