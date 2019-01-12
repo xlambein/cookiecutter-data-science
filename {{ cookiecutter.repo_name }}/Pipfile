@@ -10,10 +10,10 @@ python_versio = ">=3"
 coverage = "*"
 flake8 = "*"
 Sphinx = "*"
-# ipython = "*"
-# ipykernel = "*"
-# notebook = "*"
-# jupyterlab = "*"
+ipython = "*"
+ipykernel = "*"
+notebook = "*"
+jupyterlab = "*"
 
 [packages]
 src = {editable = true, path = "."}
