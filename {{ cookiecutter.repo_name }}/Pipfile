@@ -4,7 +4,7 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [requires]
-python_versio = ">=3"
+python_version = ">=3"
 
 [dev-packages]
 coverage = "*"
@@ -12,6 +12,7 @@ flake8 = "*"
 Sphinx = "*"
 ipython = "*"
 ipykernel = "*"
+ipywidgets = "*"
 notebook = "*"
 jupyterlab = "*"
 
@@ -19,8 +20,9 @@ jupyterlab = "*"
 src = {editable = true, path = "."}
 click = "*"
 python-dotenv = "*"
-# numpy = "*"
-# pandas = "*"
-# tables = "*"
-# matplotlib = "*"
-# tqdm = "*"
+numpy = "*"
+pandas = "*"
+sklearn = "*"
+matplotlib = "*"
+tqdm = "*"
+pyarrow = "*"
